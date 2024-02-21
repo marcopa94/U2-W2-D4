@@ -1,0 +1,9 @@
+@mixin prova() {
+  font-size: 40px;
+  color: crimson;
+}
+@mixin bottoni($colore, $padding) {
+  background-color: $colore;
+  padding: $padding;
+  color: black;
+}

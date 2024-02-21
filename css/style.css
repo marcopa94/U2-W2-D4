@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+
+.container {
+  justify-content: space-around;
+  margin-top: 5rem;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+a {
+  align-self: center;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.card {
+  border-radius: 60px;
+  animation: slidein 1s 8s backwards, fade-in 3s;
+  transform: rotate(8deg);
+  width: 18%;
+  height: 280px;
+}
+
+.bottoni {
+  color: #ff8700;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button:nth-of-type(2) {
+  background-color: #0e6cff;
+  padding: 20px;
+  color: black;
+}
+
+button:nth-of-type(1) {
+  background-color: #ff8700;
+  padding: 20px;
+  color: black;
+}
+
+button:nth-of-type(3) {
+  background-color: #4caf50;
+  padding: 20px;
+  color: black;
+}
+
+.img1 {
+  transition: all 1s 1s;
+  animation: slidein 10s 8s backwards, fade-in 10s;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  background-color: lawngreen;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  align-items: center;
+}
+
+.box1 {
+  width: 290px;
+}
+
+h1 {
+  font-size: 40px;
+  color: crimson;
+}
+
+/*# sourceMappingURL=style.css.map */
